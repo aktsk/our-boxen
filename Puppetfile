@@ -55,3 +55,17 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "osx",        "2.2.0"
+github "chrome",     "1.1.2"
+github "dropbox",    "1.2.0"
+github "firefox",    "1.1.5"
+github "java",       "1.1.0"
+github "eclipse",    "2.3.1", :repo => "bonty/puppet-eclipse"
+github "android",    "1.1.2", :repo => "bonty/puppet-android"
+github "iterm2",     "1.0.6"
+github "hipchat",    "1.1.0"
+github "sourcetree", "1.0.0"
+github "sequel_pro", "1.0.1"
+github "vagrant",    "3.0.0"
+github "virtualbox", "1.0.9"
