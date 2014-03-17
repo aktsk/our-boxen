@@ -133,11 +133,4 @@ class projects::all {
     path => "/bin/",
     require => File["${home}/Library/LaunchAgents/homebrew.mxcl.memcached.plist"],
   }
-
-  # other packages
-  package {
-    'Elasticfox-ec2tag':
-      source => 'https://s3-ap-northeast-1.amazonaws.com/elasticfox-ec2tag/Elasticfox-ec2tag_app-0.4.4.1.dmg',
-      provider => appdmg;
-  }
 }
