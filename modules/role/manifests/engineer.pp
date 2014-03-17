@@ -1,5 +1,5 @@
-class projects::engineer {
-  include projects::all
+class role::engineer {
+  include role::all
 
   include virtualbox
   include vagrant
